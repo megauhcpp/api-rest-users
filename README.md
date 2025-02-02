@@ -6,3 +6,6 @@ Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar usuarios).
 - Node.js
 - Express
 - MongoDB
+
+## Registro de peticiones HTTP
+El servidor registra en la consola todas las peticiones recibidas.
