@@ -77,6 +77,11 @@ app.delete('/users/:id', (req, res) => {
 
 });
 
+app.use((req, res, next) => {
+  console.log(`Petición: ${req.method} ${req.url}`);
+  next();
+});
+
 // Manejo de errores
 app.use((err, req, res, next) => {
   console.error(err.stack);
